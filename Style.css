@@ -1,0 +1,176 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: rgb(29, 108, 153);
+        color: white;
+    }
+
+    #profile {
+        border-radius: 50%;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 97px;
+        background-color: rgb(115, 115, 230);
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav ul li {
+        list-style: none;
+        margin: 0 23px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: white
+    }
+
+    nav ul li a:hover {
+        color: rgb(191, 191, 236);
+        font-size: 1.05rem;
+    }
+
+    main hr {
+        border: 0;
+        background: #9c97f1;
+        height: 1.2px;
+        margin: 40px 84px;
+    }
+
+    .left {
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .firstSection {
+        display: flex;
+        justify-content: space-around;
+        margin: 140px 0;
+    }
+
+    .leftSection {
+        font-size: 2rem;
+        width: 500px;
+    }
+    .rightSection{
+        background-color: #6166ec;
+    }
+    .leftSection .buttons {
+        padding: 50px 0;
+    }
+
+    .leftSection .btn {
+        padding: 12px;
+        background: #6166ec;
+        color: white;
+        border: 2px solid white;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .rightSection img {
+        width: 120%;
+        height: 100%;
+        background-color: #6166ec;
+    }
+
+    .text-gray {
+        color: black;
+    }
+
+    .secondSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+    }
+
+    .secondSection h1 {
+        font-size: 1.9rem;
+    }
+
+    .secondSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+
+    .secondSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 150px;
+    }
+
+    .vertical-title {
+        position: relative;
+        top: 90px;
+        width: 280px;
+        font-size: 30px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: rgb(46, 45, 45);
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .thirdSection h1 {
+        font-size: 1.9rem;
+    }
+
+    .thirdSection {
+        max-width: 80vw;
+        margin: auto;
+        height: 50vh;
+    }
+
+    .thirdSection .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0;
+        display: flex;
+    }
+
+    .thirdSection .vertical {
+        height: 93px;
+        width: 1px;
+        background-color: white;
+        margin: 0 150px;
+    }
+
+    .vertical-title {
+        position: relative;
+        top: 90px;
+        width: 280px;
+        font-size: 30px;
+    }
+
+    .vertical-desc {
+        position: relative;
+        top: 86px;
+        color: rgb(70, 48, 48);
+        width: 150px;
+        font-size: 20px;
+    }
+
+    .footer {
+        display: flex;
+    }
